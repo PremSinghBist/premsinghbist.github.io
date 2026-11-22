@@ -1,680 +1,268 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Prem Singh Bist, Researcher , Software Developer </title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <!--link href="css/google_fonts.css" rel="stylesheet" -->
-    <!--link href="css/font-awesome.min.css" rel="stylesheet"-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
-    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
-    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
-    <style type="text/css">
-      .btn.btn-icon.btn-lg, .navbar .navbar-nav > a.btn.btn-icon.btn-lg {
-        background: #5a626ae0 !important;
-      }
-      i.fab.fa-orcid {
-        margin-top: 1.5em;
-        display: block;
-        font-weight: 600;
-        font-size: smaller;
-    }
-    i.fab.fa-researchgate {
-      margin-top: 1.5em;
-      display: block;
-      font-weight: 600;
-      font-size: smaller;
-      }
-      .h6 a {
-        color: #f8f8f8 !important;
-    }
-    .h6 a:hover{
-      color: #ffc107 !important;
-    }
-    </style>
-    <noscript>
-      <style type="text/css">
-        [data-aos] {
-            opacity: 1 !important;
-            transform: translate(0) scale(1) !important;
-        }
-      .card-body.cc-experience-header a {
-        color: white;
-        font-size: medium;
-      }
-      
-    
-      </style>
-    </noscript>
-  </head>
-  <body id="top">
-    <header>
-      <div class="profile-page sidebar-collapse">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
-          <div class="container">
-            <div class="navbar-translate"><a class="navbar-brand" href="https://github.com/PremSinghBist" target="_blank" rel="tooltip">GitHub contribution</a>
-              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <div class="page-content">
-      <div>
-<div class="profile-page">
-  <div class="wrapper">
-    <div class="page-header page-header-small" filter-color="green">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('images/banner-01.jpg')"></div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Prem Singh Bist, PhD — Postdoctoral Research Fellow at Nanyang Technological University, Singapore. Research in AI-driven computational biology, antimicrobial peptides, protein language models, and therapeutic discovery.">
+  <meta name="author" content="Prem Singh Bist">
+  <meta name="theme-color" content="#173d42">
+  <title>Prem Singh Bist, PhD | AI & Computational Biology Researcher</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+  <style>
+    :root { --ink:#20363b; --teal:#176b72; --soft:#eef5f4; --line:#dce7e5; }
+    html { scroll-behavior:smooth; }
+    body { color:var(--ink); }
+    .section { padding-top:55px; padding-bottom:35px; scroll-margin-top:75px; }
+    .navbar-brand { font-weight:700; font-size:1rem; }
+    .page-header .title { font-weight:700; letter-spacing:.01em; }
+    .page-header .category { font-size:1rem; line-height:1.8; letter-spacing:0; font-weight:500; }
+    .page-header .content-center { width:92%; max-width:900px; }
+    .profile-page .page-header { min-height:520px; }
+    .section-heading { font-weight:700; margin-bottom:.6rem; }
+    .section-intro { max-width:780px; margin:0 auto 25px; color:#56676b; line-height:1.75; }
+    .card { border-radius:12px; overflow:hidden; }
+    .card-body { line-height:1.8; }
+    .card-body p:last-child { margin-bottom:0; }
+    .tag { display:inline-block; background:var(--soft); color:#1c5960; border:1px solid var(--line); padding:6px 12px; border-radius:30px; font-size:.83rem; font-weight:600; margin:4px 5px 4px 0; }
+    .section-card { height:100%; }
+    .section-card .card-body { padding:26px; }
+    .section-card h3 { font-size:1.12rem; font-weight:700; margin-bottom:12px; }
+    .section-card h3 .fa { color:var(--teal); margin-right:8px; }
+    .eyebrow { color:var(--teal); text-transform:uppercase; font-weight:700; letter-spacing:.08em; font-size:.74rem; }
+    .text-muted-soft { color:#607176; }
+    .project-type { font-size:.75rem; text-transform:uppercase; letter-spacing:.06em; font-weight:700; color:var(--teal); }
+    .project-title { font-size:1.18rem; line-height:1.4; font-weight:700; }
+    .project-link { font-weight:700; color:var(--teal); }
+    .timeline-card { margin-bottom:20px; }
+    .timeline-meta { background:#176b72; color:white; padding:24px; height:100%; }
+    .timeline-meta a { color:white; text-decoration:underline; }
+    .timeline-meta p { font-size:.88rem; margin:0 0 10px; }
+    .timeline-meta h3 { font-size:1rem; font-weight:700; line-height:1.5; margin:0; }
+    .timeline-detail { padding:24px 28px; }
+    .timeline-detail h3 { font-size:1.12rem; font-weight:700; }
+    .info-label { font-weight:700; font-size:.78rem; text-transform:uppercase; letter-spacing:.04em; }
+    .info-row { margin-bottom:16px; }
+    .social-links a { display:inline-flex; align-items:center; justify-content:center; width:43px; height:43px; border-radius:50%; border:1px solid #d6e4e3; color:#1b5b62; margin:0 6px 8px 0; font-size:1.1rem; }
+    .social-links a:hover { background:#1b5b62; color:white; }
+    .contact-card a { overflow-wrap:anywhere; }
+    footer { padding:28px 0; border-top:1px solid var(--line); }
+    footer .copyright { font-size:.83rem; color:#6a777a; }
+    .btn-outline-academic { border:1px solid white; color:white!important; background:transparent!important; }
+    .btn-outline-academic:hover { background:white!important; color:#176b72!important; }
+    a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline:3px solid #e0ac42; outline-offset:3px; }
+    @media(max-width:767px){ .section { padding-top:42px; padding-bottom:22px; } .timeline-meta { padding:17px 22px; } .timeline-detail { padding:21px 22px; } .profile-page .page-header { min-height:580px; } }
+  </style>
+  <noscript><style>[data-aos]{opacity:1!important;transform:none!important;}</style></noscript>
+</head>
+<body id="top">
+<header>
+  <div class="profile-page sidebar-collapse">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400" aria-label="Main navigation">
       <div class="container">
-        <div class="content-center">
-          <div class="cc-profile-image"><a href="#"><img src="images/prem.jpg" alt="Image"/></a></div>
-          <div class="h2 title">Prem Singh Bist</div>
-          <p class="category text-white" style="text-transform: none;">Ph.D. in Engineering | AI & Bioinformatics Researcher | Enterprise Software Architect</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="https://drive.google.com/file/d/12Vwmhx7PZE95FZlkib3tF52sOA7ul9Gy/view?usp=drive_link" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" target="_blank">Download CV</a>
+        <div class="navbar-translate">
+          <a class="navbar-brand" href="#top">Prem Singh Bist, PhD</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
         </div>
-      </div>
-      <div class="section">
-        <div class="container">
-          <div class="button-container">
-            <a target="_blank" class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/prem-singh-bist-88945234/" rel="tooltip" title="Follow me on Linkedin"><i class="fa fa-linkedin-square fa-2x"></i></a>
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://scholar.google.com/citations?user=C1I8UEcAAAAJ&hl=en" target="_blank" rel="tooltip" title="Follow me on Google Scholar"><i class="fa fa-google fa-2x"></i></a>
-            <a target="_blank" class="btn btn-default btn-round btn-lg btn-icon" href="https://orcid.org/0000-0002-0551-9106" rel="tooltip" title="Follow me on Orcid"><i class="fab fa-orcid">ORCID</i></a>
-            <a target="_blank" class="btn btn-default btn-round btn-lg btn-icon" href="https://www.researchgate.net/profile/Prem-Bist" rel="tooltip" title="Follow me on ResearchGate"><i class="fab fa-researchgate">RG</i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="about">
-  <div class="container">
-    <div class="card" data-aos="fade-up" data-aos-offset="10">
-      <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">About</div>
-            <p>
-              Prem Singh Bist earned his Ph.D. in Engineering from Jeonbuk National University, South Korea. His research sits at the intersection of artificial intelligence, bioinformatics, and computational biology, focusing on viral pathogens such as SARS-CoV-2, influenza, and other emerging infectious diseases. By integrating AI with multi-omics and sequence analysis, his work aims to predict viral escape mutations, design novel therapeutics, and accelerate vaccine and drug development to help prevent future pandemics.
-            </p>
-            <p>  
-              With more than a decade of professional experience in software development and project management, he has contributed his expertise to organizations including Itriangle Infotech Pvt Ltd, Faststream Technology Pvt Ltd, and Impetus Infotech Pvt Ltd. His research output spans AI-driven drug discovery, viral bioinformatics, and deep learning applications, alongside early contributions in areas such as Music Onset Detection using Convolutional Neural Networks.
-              
-              <a href="mailto: prem62900@gmail.com" target="_blank">Connect with me</a></p>
-
-            <p>
-              Bringing together a unique blend of engineering, AI, and biomedical expertise, Dr. Bist continues to advance computational approaches in healthcare and biotechnology. Beyond academia, he serves as a consultant and executive board member at Guru Technology Pvt Ltd, where he helps translate cutting-edge research into practical industry applications.
-
-            </p>  
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">Basic Information</div>
-            <div class="row">
-              <div class="col-sm-4"><strong class="text-uppercase">Date of Birth:</strong></div>
-              <div class="col-sm-8">14 May, 1988</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-              <div class="col-sm-8">prem62900@gmail.com </div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Permanent Address:</strong></div>
-              <div class="col-sm-8">Baitadi, Nepal</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Current Address:</strong></div>
-              <div class="col-sm-8">Jeonju, South Korea</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-              <div class="col-sm-8">Nepalese, Hindi, English, Korean</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Top Skills:</strong></div>
-              <div class="col-sm-8">Deep Learning, JAVA, Python </div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Bigdata:</strong></div>
-              <div class="col-sm-8">Hadoop, Spark, Storm Echo system </div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Databases:</strong></div>
-              <div class="col-sm-8">MYSQL, MSSQL, other relational databases </div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Cloud:</strong></div>
-              <div class="col-sm-8">AWS, Azure, GCP</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="skill">
-  <div class="container">
-    <div class="h4 text-center mb-4 title">Professional Skills</div>
-    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Artificial Intelligence (Machine Learning/ Deep Learning)</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div><span class="progress-value">95%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Enterprise Software Development (JAVA) </span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div><span class="progress-value">100%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Python for Data Science</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div><span class="progress-value">95%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Big Data Ecosystem</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Cloud Echo System</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Front End Technologies</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">Portfolio</div>
-        <div class="nav-align-center">
-          <ul class="nav nav-pills nav-pills-primary" role="tablist">
-            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+        <div class="collapse navbar-collapse justify-content-end" id="navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#research">Research</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#publications">Publications & Projects</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#expertise">Expertise</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
-    </div>
-    <div class="tab-content gallery mt-5">
-      <div class="tab-pane active" id="web-development">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://academic.oup.com/bib/article/24/3/bbad140/7111717#401081076">
-                  <figure class="cc-effect"><img src="images/sars_cov_2_escape_prediction.jpg" alt="Sars-escape network for escape prediction of SARS-COV-2 "/>
-                    <figcaption>
-                      <div class="h4"></div>
-                      <p>SARS-COV-2 Escape Predition</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9952608">
-                  <figure class="cc-effect"><img src="images/escape_trans_network.jpg" alt="Identification Of Sars-cov-2 Viral Escape Sequences Using Escapetrans Network
-                    "/>
-                    <figcaption>
-                      <div class="h4">Escapetrans Network</div>
-                      <p>IEEE</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://doi.org/10.1109/JBHI.2024.3432649">
-                  <figure class="cc-effect"><img src="images/generative_ai.PNG" alt="Generative AI in the Advancement of Viral Therapeutics for Predicting and Targeting Immune-Evasive SARS-CoV-2 Mutations"/>
-                    <figcaption>
-                      <div class="h4">Generative AI</div>
-                      <p>CoV-2 Spike</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://gurutech.com.np/researches/">
-                  <figure class="cc-effect"><img src="images/disease detection.jpg" alt="Disease Detection"/>
-                    <figcaption>
-                      <div class="h4">Vegetable disease detection</div>
-                      <p>Deep Learning</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane" id="graphic-design" role="tabpanel">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Escape Discriminator Network">
-                  <figure class="cc-effect"><img src="images/Escape_discriminator_network-01.jpg" alt="Escape Discriminator Network"/>
-                    <figcaption>
-                      <div class="h4">Escape discriminator network</div>
-                      <p>SARS-COV-2</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#escape-pred-auc-scores">
-                  <figure class="cc-effect"><img src="images/escape_pred_auc_scores.jpg" alt="Escape Prediction Auc Score"/>
-                    <figcaption>
-                      <div class="h4">Escape Prediction AUC Score</div>
-                      <p>SARS-COV-2</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#escape_validation_GISAID_SIG_SAMPLES_output">
-                  <figure class="cc-effect"><img src="images/escape_validation_GISAID_SIG_SAMPLES_output.png" alt="Escape Validation"/>
-                    <figcaption>
-                      <div class="h4">Escape Validation</div>
-                      <p>Sars-COV-2 Escape vs Non-escape spike protein</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/significant_escape_position_analysis_histogram.png" alt="Significant Escape Position Analysis"/>
-                    <figcaption>
-                      <div class="h4">Significant Escape Postion Analysis</div>
-                      <p>SARS-COV-2</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane" id="Photography" role="tabpanel">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/prem-1.jpg" alt="Prem"/>
-                    <figcaption>
-                      <div class="h4">Photoshoot</div>
-                      <p>Daehimandu, Baitadi</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/prem-2.jpg" alt="Prem"/>
-                    <figcaption>
-                      <div class="h4">Patan Airport</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/prem-3.jpg" alt="Prem with Daughter"/>
-                    <figcaption>
-                      <div class="h4">Patan</div>
-                      <p>Home</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/prem-4.jpg" alt="Prem"/>
-                    <figcaption>
-                      <div class="h4">Nature Photoshoot</div>
-                      <p>Jeju Island, South Korea</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
+    </nav>
+  </div>
+</header>
+<main class="page-content">
+  <div class="profile-page">
+    <div class="wrapper">
+      <div class="page-header page-header-small" filter-color="green">
+        <div class="page-header-image" data-parallax="true" style="background-image:url('images/banner-01.jpg')"></div>
+        <div class="container">
+          <div class="content-center">
+            <div class="cc-profile-image"><img src="images/prem.jpg" alt="Portrait of Prem Singh Bist" width="180" height="180"></div>
+            <h1 class="h2 title">Prem Singh Bist, PhD</h1>
+            <p class="category text-white" style="text-transform:none;">Postdoctoral Research Fellow · Nanyang Technological University, Singapore<br>Artificial Intelligence · Computational Biology · Bioinformatics · AI-Driven Drug Discovery</p>
+            <a class="btn btn-primary smooth-scroll mr-2" href="#research">Explore Research</a>
+            <a class="btn btn-outline-academic smooth-scroll mr-2" href="#contact">Get in Touch</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="section" id="experience">
-  <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Work Experience</div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>April 2011 - April 2012</p>
-            <div class="h6"><a href="https://www.itriangle.in/" target="_blank">Itriangle Infotech</a></div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Software Engineer</div>
-            <p>Involved in Design & Development of online purchase & sales tracking System, &  Personal tracking System developed using Android devices for obtaining location and google maps for front-end monitoring. 
-              <br/><b>Tools worked on:</b> Php, Mysql, Perl, JavaScript, Android, Html, CSS</b>  
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>May 2012 – May 2013</p>
-            <div class="h6"><a href="https://www.faststreamtech.com/" target="_blank">Faststream Technology</a> </div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Software Engineer</div>
-            <p>Involved in Design & Development of content management system for educational  project & Health care management. 
-              <br> <b>Tools worked on:</b> Php, Mysql, JavaScript, Html, CSS, CMS frameworks – Joomla, wordpress, Drupal 
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>June 2013- Dec 2016</p>
-            <div class="h6"><a href="https://www.impetus.com/" target="_blank">Impetus Infotech </a> </div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Senior Software Engineer</div>
-            <p>Involved in research & development of various ongoing Big data oriented research  stacks. Tools Worked on: Java/J2EE, Hadoop, Spark, Storm, Elastic Search, Amazon AWS Cloud
-              <br/><b>Tools Worked on: </b> Java/J2EE, Hadoop, Spark, Storm, Elastic Search, Amazon AWS Cloud 
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>Jan 2017 - June 2018</p>
-            <div class="h6"><a href="https://nepguru.com/" target="_blank">Guru Engineering </a> </div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Team Lead</div>
-            <p>Monitor, Guide, and Lead Software Development of Learning Management System           
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>July 2018 - August 2021</p>
-            <div class="h6"><a href="https://gurutech.com.np/" target="_blank">Guru Technology</a> </div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">CEO / Technical Architect</div>
-            <p>Management of team & procedures, Developed solution for Municipal Government for Digital Profile Analytical System             
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section">
-  <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Education</div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>Sep 01, 2021 - Aug 22, 2025</p>
-            <div class="h5">PhD</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">PhD in Engineering</div>
-            <p class="category"><a href="https://www.jbnu.ac.kr/eng/" target="_blank">Jeonbuk National University, South Korea </a></p>
-            <p>I graduated with a Ph.D. in Engineering from the Department of Electronics & Information Engineering at Jeonbuk National University, South Korea, specializing in the application of artificial intelligence to bioinformatics. My research focused on viral escape sequences such as SARS-CoV-2 and influenza, aiming to predict, analyze, and identify potential drug candidates that can contribute to the development of effective vaccines and the prevention of future pandemics. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2013 - 2015</p>
-            <div class="h5">Master's Degree</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Master of Technology in Computer Science & Engineering</div>
-            <p class="category"><a href="https://aktu.ac.in/" target="_blank"> Dr. APJ Abdul Kalam University, India </a></p>
-            <p>The thesis focuses on developing a real-time distributed fleet monitoring system that leverages big data technology to address the challenges of efficient and accurate tracking of vehicle fleets. By utilizing a distributed architecture, incorporating technologies such as GPS, wireless communication, and advanced data analysis algorithms, the system enables real-time tracking of vehicle locations, comprehensive monitoring of maintenance needs, remote diagnostics, and optimized route planning. Through the integration of big data technology, the system aims to enhance fleet management by improving operational efficiency, reducing fuel consumption, and ensuring timely maintenance. The thesis delves into the design, implementation, and evaluation of the system, specifically addressing challenges related to scalability, data synchronization, and real-time processing of large volumes of data. By harnessing the power of big data, the thesis contributes to the field of fleet management by providing a cutting-edge solution that optimizes fleet operations and decision-making processes.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2006 - 2010</p>
-            <div class="h5">Bachelor's Degree</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Bachelor of Computer Engineering</div>
-            <p class="category"><a href="https://pu.edu.np/" target="_blank">Pokhara University, Nepal </a></p>
-            <p>The final year project focused on the development of a remote computer-based door authentication system that utilizes an embedded system, a keypad-based input mechanism, and the computer's serial port. This system aims to provide secure access control by allowing users to enter a predefined code on the keypad, which is transmitted through the serial port to the computer for authentication. If the code matches an entry in the authorized user database, the computer sends a signal to unlock the door. The integration of the embedded system and the computer's serial port offers a compact, efficient, and cost-effective solution for remote door authentication, enhancing security and convenience.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="reference">
-  <div class="container cc-reference">
-    <div class="h4 mb-4 text-center title">References</div>
-    <div class="card" data-aos="zoom-in">
-      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
-          <li data-target="#cc-Indicators" data-slide-to="1"></li>
-          <li data-target="#cc-Indicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/professor_kil_to_chong.png" alt="Image"/>
-                <div class="h5 pt-2"> Kil To Chong</div>
-                <p class="category">Professor / JBNU</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p>Professor <a href ="https://scholar.google.com/citations?user=vcBoPWUAAAAJ&hl=ko" target="_blank"> Kil To Chong</a> is a dedicated researcher working on the development of artificial intelligence-based source technology to tackle brain diseases. He recognizes the significance of artificial intelligence as a crucial component of the fourth industrial revolution. By merging the fields of artificial intelligence and brain science, Professor Chong is making noteworthy academic contributions aimed at enhancing human well-being. His research primarily focuses on identifying the genes and biological mechanisms responsible for Alzheimer's disease, which remain inadequately understood. Furthermore, he is actively engaged in leveraging research findings to develop novel drugs. Additionally, Professor Chong is currently involved in artificial intelligence-driven studies related to cancer-causing genes.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/Prof_hilal.jpg" alt="Prof. Hilal Tayara"/>
-                <div class="h5 pt-2">Hilal Tayara</div>
-                <p class="category">Asst. Professor / JBNU</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> Assistant Prof. <a href="https://scholar.google.com/citations?user=5tJsbdoAAAAJ&hl=en" target="_blank">Hilal Tayara </a> possess strong skills in computer science and bioinformatics research.</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/yagay_raj.jpg" alt="Image"/>
-                <div class="h5 pt-2">Asst. Prof. Yagya Raj Pandeya</div>
-                <p class="category">Kathmandu University</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p> <a href="https://scholar.google.it/citations?user=EYFaLysAAAAJ&hl=en" target="_blank">  Dr. Yagya Raj Pandeya</a> currently holds the position of Assistant Professor at the Department of Computer Science and Engineering at Kathmandu University, located in Dhulikhel. Kathmandu University (https://ku.edu.np/) is the academic institution where he is affiliated and contributes to the field of computer science and engineering through his role as an Assistant Professor.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="contact">
-  <div class="cc-contact-information" style="background-image: url('images/staticmap.png')">
-    <div class="container">
-      <div class="cc-contact">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="card mb-0" data-aos="zoom-in">
-              <div class="h4 text-center title">Contact Me</div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <form  id ="my-form" action="https://formspree.io/f/xpzgzovw" method="POST">
-                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col">
-                          <button class="btn btn-primary" type="submit">Send</button>
-                        </div>
-                        <p id="my-form-status"></p>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <p class="mb-0"><strong>Address </strong></p>
-                    <p class="pb-2">Jeonju, Jeollabuk-do, South Korea</p>
-                    <!--p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2">+82-010....<p-->
-                    <p class="mb-0"><strong>Email</strong></p>
-                    <p>prem62900@gmail.com</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
-    <footer class="footer">
-      <div class="container text-center">
-        <a class="cc-facebook btn btn-link" target="_blank" href="https://www.facebook.com/bistg.prem"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a>
-        <a class="cc-twitter btn btn-link" href="https://twitter.com/PremsinghBist" target="_blank"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a>
-        <a class="youtube-icon btn btn-link" href="https://www.youtube.com/@goodlifenepal" target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
-        <a class="tiktok-icon btn btn-link" href="https://www.tiktok.com/@prem.diary" target="_blank"><i class="fab fa-tiktok fa-2x" aria-hidden="true"></i></a>
-      </div>
-      <div class="h4 title text-center">Prem Singh Bist</div>
-      <div class="text-center text-muted">
-      </div>
-    </footer>
-    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
-    <script src="js/core/popper.min.js?ver=1.1.0"></script>
-    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
-    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
-    <script src="js/aos.js?ver=1.1.0"></script>
-    <script src="scripts/main.js?ver=1.1.0"></script>
 
-     <!-- Place this script at the end of the body tag -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="card" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-8 col-md-12">
+            <div class="card-body">
+              <h2 class="h4 mt-0 title" id="about-title">About Me</h2>
+              <p>I am <strong>Prem Singh Bist, PhD</strong>, a Postdoctoral Research Fellow at <strong>Nanyang Technological University (NTU), Singapore</strong>. My research lies at the intersection of artificial intelligence, bioinformatics, and computational biology, with an emphasis on developing predictive and generative models for biological sequences and therapeutic discovery.</p>
+              <p>My current work focuses on <strong>antimicrobial peptide activity prediction and computational peptide design</strong>. I investigate protein language models, deep learning, physicochemical representations, semi-supervised learning, interpretable modeling, and uncertainty-aware prediction to support more reliable computational approaches to peptide discovery.</p>
+              <p>My earlier research examined <strong>viral evolution and immune escape</strong>, including SARS-CoV-2 and influenza. I hold a PhD in Engineering from Jeonbuk National University, South Korea, and bring more than a decade of software development and technology leadership experience to research software and end-to-end AI workflows.</p>
+              <p>I aim to connect rigorous machine learning methods with meaningful challenges in biological discovery, antimicrobial resistance, and therapeutic development.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card-body">
+              <h2 class="h4 mt-0 title">At a Glance</h2>
+              <div class="info-row"><div class="info-label">Current affiliation</div><div>Nanyang Technological University, Singapore</div></div>
+              <div class="info-row"><div class="info-label">Current position</div><div>Postdoctoral Research Fellow</div></div>
+              <div class="info-row"><div class="info-label">Research areas</div><div>AI for Biological Sequences, Computational Biology, Peptide Modeling</div></div>
+              <div class="info-row"><div class="info-label">Education</div><div>PhD in Engineering · Jeonbuk National University</div></div>
+              <div class="info-row"><div class="info-label">Based in</div><div>Singapore</div></div>
+              <div class="info-row"><div class="info-label">Email</div><a href="mailto:prem.bist@ntu.edu.sg">prem.bist@ntu.edu.sg</a></div>
+              <div class="social-links" aria-label="Academic and professional profiles">
+                <a href="https://scholar.google.com/citations?user=C1I8UEcAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                <a href="https://github.com/PremSinghBist" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/prem-singh-bist-88945234/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://orcid.org/0000-0002-0551-9106" target="_blank" rel="noopener noreferrer" aria-label="ORCID" title="ORCID"><i class="fa fa-id-badge" aria-hidden="true"></i></a>
+                <a href="https://www.researchgate.net/profile/Prem-Bist" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate" title="ResearchGate"><i class="fa fa-flask" aria-hidden="true"></i></a>
+              </div>
+              <a class="btn btn-primary mt-3" href="https://drive.google.com/file/d/12Vwmhx7PZE95FZlkib3tF52sOA7ul9Gy/view?usp=drive_link" target="_blank" rel="noopener noreferrer">View CV <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="research" aria-labelledby="research-title">
+    <div class="container">
+      <h2 class="h4 text-center title section-heading" id="research-title">Research Interests</h2>
+      <p class="section-intro text-center">Developing machine learning approaches that bring biological understanding, predictive reliability, and computational efficiency to therapeutic discovery.</p>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4"><div class="card section-card"><div class="card-body"><h3><i class="fa fa-flask" aria-hidden="true"></i>Antimicrobial Peptides</h3><p>Activity and potency prediction, peptide representation learning, and computational design of therapeutic candidates.</p></div></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="card section-card"><div class="card-body"><h3><i class="fa fa-code-fork" aria-hidden="true"></i>Protein Language Models</h3><p>Learning informative biological sequence representations and integrating them with domain-specific physicochemical features.</p></div></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="card section-card"><div class="card-body"><h3><i class="fa fa-cogs" aria-hidden="true"></i>Generative AI for Biology</h3><p>Predictive and generative architectures for peptide and protein sequence modeling, with attention to multiple design objectives.</p></div></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="card section-card"><div class="card-body"><h3><i class="fa fa-shield" aria-hidden="true"></i>Trustworthy Machine Learning</h3><p>Model interpretability, predictive uncertainty, calibration, robust evaluation, and reproducible computational research.</p></div></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="card section-card"><div class="card-body"><h3><i class="fa fa-line-chart" aria-hidden="true"></i>Viral Evolution & Immune Escape</h3><p>AI-based analysis of viral sequence variation, immune-evasive mutations, and pathogen evolution.</p></div></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="card section-card"><div class="card-body"><h3><i class="fa fa-database" aria-hidden="true"></i>Computational Research Systems</h3><p>End-to-end pipelines for data curation, model training, evaluation, interpretation, and reproducible biological analysis.</p></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="publications" aria-labelledby="pub-title">
+    <div class="container">
+      <h2 class="h4 text-center title section-heading" id="pub-title">Selected Publications & Research Projects</h2>
+      <p class="section-intro text-center">Selected published research followed by ongoing directions. For a complete and current publication record, see my <a href="https://scholar.google.com/citations?user=C1I8UEcAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar profile</a>.</p>
+      <h3 class="h5 mb-3">Selected Publications</h3>
+      <div class="row">
+        <div class="col-md-6 mb-4"><article class="card section-card"><div class="card-body"><div class="project-type">Published research · Viral escape modeling </div><h4 class="project-title mt-2">SARS-CoV-2 Escape Prediction [2023]</h4><p>Computational research on identifying immune-evasive viral sequences using AI-based sequence modeling.</p><a class="project-link" href="https://academic.oup.com/bib/article/24/3/bbad140/7111717" target="_blank" rel="noopener noreferrer">View publication <i class="fa fa-external-link" aria-hidden="true"></i></a></div></article></div>
+        <div class="col-md-6 mb-4"><article class="card section-card"><div class="card-body"><div class="project-type">Published research · Generative AI</div><h4 class="project-title mt-2">Gen AI for Viral Therapeutics [2024]</h4><p>Generative approaches to predicting and targeting immune-evasive SARS-CoV-2 mutations.</p><a class="project-link" href="https://doi.org/10.1109/JBHI.2024.3432649" target="_blank" rel="noopener noreferrer">View publication <i class="fa fa-external-link" aria-hidden="true"></i></a></div></article></div>
+        <div class="col-md-6 mb-4"><article class="card section-card"><div class="card-body"><div class="project-type">Published research ·Deep learning</div><h4 class="project-title mt-2">Viral Escape Mechanisms [2026]</h4><p>A Transformative Approach to Mutation Analysis for SARS-CoV-2 and Beyond.</p><a class="project-link" href="https://doi.org/10.1109/TCBBIO.2026.3695225" target="_blank" rel="noopener noreferrer">View publication <i class="fa fa-external-link" aria-hidden="true"></i></a></div></article></div>
+        <div class="col-md-6 mb-4"><article class="card section-card"><div class="card-body"><div class="project-type">Published research ·Deep learning</div><h4 class="project-title mt-2">Gated Modulation PLM  [2026]</h4><p>Gated Modulation Protein Language Model (GMProt) for Antimicrobial peptide activity prediction.</p><a class="project-link" href="https://www.eccb.org/2026/posters/wp-content/uploads/2026/08/GMProt_ECCB_Poster_V02-1.pdf" target="_blank" rel="noopener noreferrer">View ECCB Poster<i class="fa fa-external-link" aria-hidden="true"></i></a></div></article></div>
+      </div>
+      <h3 class="h5 mt-3 mb-3">Current Research Directions</h3>
+      <div class="row">
+        <div class="col-md-4 mb-4"><article class="card section-card"><div class="card-body"><div class="project-type">Research in progress</div><h4 class="project-title mt-2">TW-GMProt</h4><p>Trust-weighted, semi-supervised gated modulation for antimicrobial peptide activity prediction, combining protein language model representations with engineered features.</p></div></article></div>
+        <div class="col-md-4 mb-4"><article class="card section-card"><div class="card-body"><div class="project-type">Research in progress</div><h4 class="project-title mt-2">PepMetaStack</h4><p>Research into prediction frameworks for peptide bioactivity and systematic comparative evaluation of modeling approaches.</p></div></article></div>
+        <div class="col-md-4 mb-4"><article class="card section-card"><div class="card-body"><div class="project-type">Research in development</div><h4 class="project-title mt-2">TW-SelectFlow</h4><p>Uncertainty-aware computational peptide design targeting quantitative antimicrobial activity, hemolysis, novelty, and diversity.</p></div></article></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="expertise" aria-labelledby="expertise-title">
+    <div class="container">
+      <h2 class="h4 text-center title section-heading" id="expertise-title">Technical Expertise</h2>
+      <p class="section-intro text-center">A combination of research-oriented machine learning and production software engineering. Skills are grouped by domain rather than represented by subjective percentages.</p>
+      <div class="row">
+        <div class="col-md-6 mb-4"><div class="card section-card"><div class="card-body"><h3>AI & Machine Learning</h3><span class="tag">Deep Learning</span><span class="tag">Generative Modeling</span><span class="tag">Semi-Supervised Learning</span><span class="tag">Model Interpretability</span><span class="tag">Uncertainty Quantification</span><span class="tag">Statistical Evaluation</span></div></div></div>
+        <div class="col-md-6 mb-4"><div class="card section-card"><div class="card-body"><h3>Computational Biology</h3><span class="tag">Bioinformatics</span><span class="tag">Protein Language Models</span><span class="tag">Peptide & Protein Modeling</span><span class="tag">Biological Sequence Analysis</span><span class="tag">Viral Escape Prediction</span><span class="tag">Physicochemical Features</span></div></div></div>
+        <div class="col-md-6 mb-4"><div class="card section-card"><div class="card-body"><h3>Programming & Research Systems</h3><span class="tag">Python</span><span class="tag">Java / J2EE</span><span class="tag">Research Software Engineering</span><span class="tag">Data Pipelines</span><span class="tag">Reproducible Experiments</span><span class="tag">Relational Databases</span></div></div></div>
+        <div class="col-md-6 mb-4"><div class="card section-card"><div class="card-body"><h3>Software & Data Infrastructure</h3><span class="tag">Hadoop</span><span class="tag">Spark</span><span class="tag">Distributed Systems</span><span class="tag">AWS</span><span class="tag">Cloud Platforms</span><span class="tag">Software Architecture</span><span class="tag">Technical Leadership</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience" aria-labelledby="experience-title">
+    <div class="container">
+      <h2 class="h4 text-center title section-heading" id="experience-title">Research & Professional Experience</h2>
+      <p class="section-intro text-center">My career combines academic research in AI-driven biological discovery with a foundation in enterprise software engineering and technology leadership.</p>
+      <div class="card timeline-card"><div class="row no-gutters"><div class="col-md-3"><div class="timeline-meta"><p>Current</p><h3>Nanyang Technological University<br>Singapore</h3></div></div><div class="col-md-9"><div class="timeline-detail"><h3>Postdoctoral Research Fellow</h3><p>Developing AI-based approaches to antimicrobial peptide activity prediction and sequence modeling, with emphasis on protein language models, deep learning architectures, physicochemical features, interpretability, and reliable model evaluation.</p></div></div></div></div>
+      <div class="card timeline-card"><div class="row no-gutters"><div class="col-md-3"><div class="timeline-meta"><p>July 2018 – August 2021</p><h3>Guru Technology Pvt. Ltd.</h3></div></div><div class="col-md-9"><div class="timeline-detail"><h3>CEO / Technical Architect</h3><p>Led technical teams and solution architecture, including the development of municipal digital-profile and analytics systems. Also contributed to technology consulting and strategic initiatives.</p></div></div></div></div>
+      <div class="card timeline-card"><div class="row no-gutters"><div class="col-md-3"><div class="timeline-meta"><p>January 2017 – June 2018</p><h3>Guru Engineering</h3></div></div><div class="col-md-9"><div class="timeline-detail"><h3>Team Lead</h3><p>Coordinated and guided software development for learning management systems.</p></div></div></div></div>
+      <div class="card timeline-card"><div class="row no-gutters"><div class="col-md-3"><div class="timeline-meta"><p>June 2013 – December 2016</p><h3>Impetus Infotech Pvt. Ltd.</h3></div></div><div class="col-md-9"><div class="timeline-detail"><h3>Senior Software Engineer</h3><p>Worked on research and development of big-data-oriented systems using Java/J2EE, Hadoop, Spark, Storm, Elasticsearch, and AWS.</p></div></div></div></div>
+      <div class="card timeline-card"><div class="row no-gutters"><div class="col-md-3"><div class="timeline-meta"><p>May 2012 – May 2013</p><h3>Faststream Technology Pvt. Ltd.</h3></div></div><div class="col-md-9"><div class="timeline-detail"><h3>Software Engineer</h3><p>Developed content management and web applications for educational and healthcare-related projects.</p></div></div></div></div>
+      <div class="card timeline-card"><div class="row no-gutters"><div class="col-md-3"><div class="timeline-meta"><p>April 2011 – April 2012</p><h3>Itriangle Infotech Pvt. Ltd.</h3></div></div><div class="col-md-9"><div class="timeline-detail"><h3>Software Engineer</h3><p>Developed sales and purchase tracking software and location-monitoring applications integrating Android devices and mapping technologies.</p></div></div></div></div>
+    </div>
+  </section>
+
+  <section class="section" id="education" aria-labelledby="education-title">
+    <div class="container">
+      <h2 class="h4 text-center title section-heading" id="education-title">Education</h2>
+      <div class="card timeline-card"><div class="row no-gutters"><div class="col-md-3"><div class="timeline-meta"><p>2021 – 2025</p><h3>Doctor of Philosophy</h3></div></div><div class="col-md-9"><div class="timeline-detail"><h3>PhD in Engineering</h3><p><strong>Jeonbuk National University, South Korea</strong></p><p>Department of Electronics and Information Engineering. Research on AI-driven bioinformatics, viral sequence modeling, and immune escape prediction.</p></div></div></div></div>
+      <div class="card timeline-card"><div class="row no-gutters"><div class="col-md-3"><div class="timeline-meta"><p>2013 – 2015</p><h3>Master of Technology</h3></div></div><div class="col-md-9"><div class="timeline-detail"><h3>Computer Science and Engineering</h3><p><strong>Dr. A. P. J. Abdul Kalam Technical University, India</strong></p><p>Graduate work in distributed systems and big-data-enabled fleet monitoring, with attention to real-time data processing and scalable system design.</p></div></div></div></div>
+      <div class="card timeline-card"><div class="row no-gutters"><div class="col-md-3"><div class="timeline-meta"><p>2006 – 2010</p><h3>Bachelor's Degree</h3></div></div><div class="col-md-9"><div class="timeline-detail"><h3>Bachelor of Computer Engineering</h3><p><strong>Pokhara University, Nepal</strong></p><p>Undergraduate studies in computer engineering, including an embedded-system-based access-control project.</p></div></div></div></div>
+    </div>
+  </section>
+
+  <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="container">
+      <h2 class="h4 text-center title section-heading" id="contact-title">Contact & Collaboration</h2>
+      <p class="section-intro text-center">I welcome conversations about academic collaboration, computational biology, machine learning for biological sequences, and research opportunities.</p>
+      <div class="card contact-card"><div class="row"><div class="col-lg-6"><div class="card-body">
+        <h3 class="h5 mb-3">Send a Message</h3>
+        <form id="my-form" action="https://formspree.io/f/xpzgzovw" method="POST">
+          <div class="form-group"><label for="contact-name">Name</label><input id="contact-name" class="form-control" type="text" name="name" autocomplete="name" required></div>
+          <div class="form-group"><label for="contact-email">Email</label><input id="contact-email" class="form-control" type="email" name="email" autocomplete="email" required></div>
+          <div class="form-group"><label for="contact-subject">Subject</label><input id="contact-subject" class="form-control" type="text" name="subject" required></div>
+          <div class="form-group"><label for="contact-message">Message</label><textarea id="contact-message" class="form-control" name="message" rows="5" required></textarea></div>
+          <button class="btn btn-primary" type="submit">Send Message</button><p id="my-form-status" role="status" aria-live="polite" class="mt-2"></p>
+        </form>
+      </div></div><div class="col-lg-6"><div class="card-body">
+        <h3 class="h5 mb-3">Professional Contact</h3>
+        <p><strong>Institution</strong><br>Nanyang Technological University (NTU), Singapore</p>
+        <p><strong>Location</strong><br>Singapore</p>
+        <p><strong>Email</strong><br><a href="mailto:prem.bist@ntu.edu.sg">prem.bist@ntu.edu.sg</a></p>
+        <p><strong>Academic Profiles</strong><br><a href="https://scholar.google.com/citations?user=C1I8UEcAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a> · <a href="https://orcid.org/0000-0002-0551-9106" target="_blank" rel="noopener noreferrer">ORCID</a> · <a href="https://www.researchgate.net/profile/Prem-Bist" target="_blank" rel="noopener noreferrer">ResearchGate</a></p>
+        <p><strong>Professional Profiles</strong><br><a href="https://www.linkedin.com/in/prem-singh-bist-88945234/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://github.com/PremSinghBist" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+      </div></div></div></div>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="container text-center"><div class="h5 title">Prem Singh Bist, PhD</div><p class="copyright">© <span id="year">2026</span> Prem Singh Bist. All rights reserved.</p><a class="smooth-scroll" href="#top">Back to top</a></div></footer>
+<script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+<script src="js/core/popper.min.js?ver=1.1.0"></script>
+<script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+<script src="js/now-ui-kit.js?ver=1.1.0"></script>
+<script src="js/aos.js?ver=1.1.0"></script>
+<script src="scripts/main.js?ver=1.1.0"></script>
 <script>
-  var form = document.getElementById("my-form");
-  
-  async function handleSubmit(event) {
+(function () {
+  var year = document.getElementById('year');
+  if (year) year.textContent = new Date().getFullYear();
+  var form = document.getElementById('my-form');
+  var status = document.getElementById('my-form-status');
+  if (!form || !status) return;
+  form.addEventListener('submit', function (event) {
     event.preventDefault();
-    var status = document.getElementById("my-form-status");
-    var data = new FormData(event.target);
-    fetch(event.target.action, {
-      method: form.method,
-      body: data,
-      headers: {
-          'Accept': 'application/json'
-      }
-    }).then(response => {
-      if (response.ok) {
-        status.innerHTML = "Thanks for your submission!";
-        form.reset()
-      } else {
-        response.json().then(data => {
-          if (Object.hasOwn(data, 'errors')) {
-            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-          } else {
-            status.innerHTML = "Oops! There was a problem submitting your form"
-          }
-        })
-      }
-    }).catch(error => {
-      status.innerHTML = "Oops! There was a problem submitting your form"
-    });
-  }
-  form.addEventListener("submit", handleSubmit)
+    status.textContent = 'Sending your message…';
+    var submitButton = form.querySelector('button[type="submit"]');
+    if (submitButton) submitButton.disabled = true;
+    fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
+      .then(function (response) {
+        if (!response.ok) throw new Error('Submission failed');
+        status.textContent = 'Thank you. Your message has been sent.';
+        form.reset();
+      })
+      .catch(function () {
+        status.textContent = 'Your message could not be sent. Please email me at prem.bist@ntu.edu.sg.';
+      })
+      .finally(function () { if (submitButton) submitButton.disabled = false; });
+  });
+})();
 </script>
-   
-  </body>
+</body>
 </html>
